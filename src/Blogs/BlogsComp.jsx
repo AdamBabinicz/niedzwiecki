@@ -40,7 +40,7 @@ const BlogsData = [
     title: "VII Memoriał Szachowy im. Jana Niedźwieckiego",
     description:
       "„Najważniejszą strategią jest organizacja turniejów szachowych z atrakcyjnymi nagrodami. Wcześniej prowadziłem turnieje, gdzie używane były tradycyjne bierki i szachownice, jednak teraz skupiam się na organizacji turniejów online na platformie lichess.org. Tam stworzyłem Klub Akademia Szachowa Marka Niedźwieckiego, gdzie publikuję informacje o planowanych turniejach. W najbliższym czasie, dokładnie w czwartek o godzinie 18:00, odbędzie się kolejny turniej szachowy poświęcony Pamięci Żołnierzy Wyklętych.”",
-    author: "Wiktor Podymniak - uczestnik",
+    author: "Uczestnicy turnieju",
     date: "04.12.2019",
     aosDelay: "300",
   },
