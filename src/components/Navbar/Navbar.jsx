@@ -73,7 +73,6 @@ const Navbar = () => {
                 <button className="btn-primary" onClick={handleShowPopup}>
                   Skontaktuj się
                 </button>
-                <DarkMode />
               </ul>
             </div>
             {/* Mobile View */}
@@ -105,6 +104,7 @@ const Navbar = () => {
         />
       )}
       {/* Renderuj komponent Popup tylko gdy isPopupVisible jest ustawione na true */}
+      <DarkMode />
     </>
   );
 };
