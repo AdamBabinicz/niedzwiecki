@@ -27,12 +27,11 @@ export const MenuLinks = [
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const [isPopupVisible, setIsPopupVisible] = useState(false); // Stan do kontrolowania widoczności pop-upa
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
-
-  const [isPopupVisible, setIsPopupVisible] = useState(false); // Stan do kontrolowania widoczności pop-upa
 
   const handleShowPopup = () => {
     setIsPopupVisible(true); // Ustaw stan widoczności pop-upa na true po kliknięciu przycisku
@@ -75,9 +74,10 @@ const Navbar = () => {
                 </button>
               </ul>
             </div>
+            {/* DarkMode Button */}
+            <DarkMode />
             {/* Mobile View */}
             <div className="flex items-center gap-4 md:hidden">
-              <DarkMode />
               {showMenu ? (
                 <HiMenuAlt1
                   onClick={toggleMenu}
@@ -104,7 +104,6 @@ const Navbar = () => {
         />
       )}
       {/* Renderuj komponent Popup tylko gdy isPopupVisible jest ustawione na true */}
-      <DarkMode />
     </>
   );
 };
