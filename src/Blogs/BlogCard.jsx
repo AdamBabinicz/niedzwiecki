@@ -27,9 +27,9 @@ const BlogCard = ({ image, title, description, author, date, aosDelay }) => {
           <p className="line-clamp-4 text-gray-500 text-sm dark:text-white">
             {date}
           </p>
-          <div className="flex justify-end pr-4 text-gray-500">
+          {/* <div className="flex justify-end pr-4 text-gray-500">
             <FaArrowRight className="group-hover:text-primary group-hover:translate-x-2 duration-300" />
-          </div>
+          </div> */}
         </div>
       </div>
     </>

@@ -3,6 +3,8 @@ import { FaFacebook } from "react-icons/fa";
 import { FaMeta } from "react-icons/fa6";
 import { GiTrophyCup } from "react-icons/gi";
 import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
+import imgU from "../../assets/34.webp";
 
 const FooterLinks = [
   {
@@ -32,8 +34,9 @@ const HelpLinks = [
   //   link: "/#terms",
   // },
   {
-    title: "Polityka prywatności",
-    link: "/polityka-prywatnosci",
+    title: "",
+    link: "http://roszada.radom.pl",
+    img: imgU,
   },
 ];
 const ResourcesLinks = [
@@ -111,7 +114,7 @@ const Footer = () => {
                           href={link}
                           smooth={true}
                           duration={500}
-                          onClick={() => smoothScrollTo(link)}
+                          // onClick={() => smoothScrollTo(link)}
                           className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-400 "
                         >
                           <span>{title}</span>
@@ -124,7 +127,7 @@ const Footer = () => {
               <div className="">
                 <div className="py-8 px-4 ">
                   <h2 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
-                    Pomoc
+                    UKS Roszada
                   </h2>
                   <ul className="flex flex-col gap-3">
                     {HelpLinks.map((link) => (
@@ -132,15 +135,20 @@ const Footer = () => {
                         key={link.title}
                         className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-400 "
                       >
-                        <Link to={link.link}>
+                        <Link
+                          to={link.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <span>{link.title}</span>
+                          <img src={link.img} className="w-[30px]" alt="..." />
                         </Link>
                       </li>
                     ))}
                   </ul>
                 </div>
               </div>
-              <div className="">
+              <div>
                 <div className="py-8 px-4 ">
                   <h2 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
                     Zasoby
@@ -151,7 +159,7 @@ const Footer = () => {
                         key={id}
                         smooth={true}
                         duration={500}
-                        onClick={() => smoothScrollTo(link)}
+                        // onClick={() => smoothScrollTo(link)}
                         className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-400 "
                       >
                         <a

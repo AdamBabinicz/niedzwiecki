@@ -39,31 +39,31 @@ const Policy = () => {
         </p>
         <p className="mb-5">
           Dane osobowe są wykorzystywane w następujących celach:
-          <p>Rejestracja konta i weryfikacja tożsamości Użytkownika,</p>
-          <p>Umożliwienie logowania do Serwisu,</p>
-          <p>Realizacja umowy dotyczącej usług i e-usług,</p>
-          <p>
+          <span>Rejestracja konta i weryfikacja tożsamości Użytkownika,</span>
+          <span>Umożliwienie logowania do Serwisu,</span>
+          <span>Realizacja umowy dotyczącej usług i e-usług,</span>
+          <span>
             Komunikacja z Użytkownikiem (np. za pośrednictwem czatu na żywo,
             formularza kontaktowego),
-          </p>
-          <p>
+          </span>
+          <span>
             Wysyłka newslettera (po wyrażeniu zgody Użytkownika na jego
             otrzymywanie),
-          </p>
-          <p>
+          </span>
+          <span>
             Prowadzenie systemu komentarzy, Świadczenie usług społecznościowych,
-          </p>
-          <p>
+          </span>
+          <span>
             Promocja oferty Administratora, Marketing, remarketing, afiliacja,
-          </p>
-          <p>
+          </span>
+          <span>
             Personalizacja Serwisu dla Użytkowników, Działania analityczne i
             statystyczne,
-          </p>
-          <p>Windykacja należności,</p>
-          <p>Ustalenie i dochodzenie roszczeń lub obrona przed nimi.</p>
+          </span>
+          <span>Windykacja należności,</span>
+          <span>Ustalenie i dochodzenie roszczeń lub obrona przed nimi.</span>
         </p>
-        <p classname="mb-5">
+        <p className="mb-5">
           Podanie danych jest dobrowolne, jednakże jest niezbędne do zawarcia
           umowy lub skorzystania z innych funkcjonalności Serwisu."
         </p>
