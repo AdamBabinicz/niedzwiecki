@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import HeroImg from "../../assets/2.webp";
+import HeroImg from "../../assets/35.webp";
 import Popup from "../Popup/Popup";
 
 const Hero = () => {
