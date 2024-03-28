@@ -14,6 +14,7 @@ import "aos/dist/aos.css";
 import ScrollToTop from "./ScrollToTop";
 import Policy from "./components/Policy/Policy";
 import CookieConsent from "react-cookie-consent";
+import Popup1 from "./components/Popup/Popup1";
 
 const App = () => {
   useEffect(() => {
@@ -30,10 +31,12 @@ const App = () => {
     <div className="overflow-x-hidden bg-white dark:bg-black duration-300">
       <Router>
         <ScrollToTop />
+        <Popup1 />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/polityka-prywatnosci" element={<Policy />} />
+          <Route path="/popup1" component={Popup1} />
         </Routes>
       </Router>
     </div>
