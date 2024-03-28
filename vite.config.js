@@ -7,8 +7,8 @@ export default defineConfig({
   plugins: [
     react(),
     ogPlugin({
-      url: "https://example.com",
-      title: "Tytuł strony",
+      url: "https://marek-niedzwiecki.netlify.app",
+      title: "Marek Niedźwiecki",
       description: "Opis strony",
       image: "https://marek-niedzwiecki.netlify.app/images/19.webp",
       site_name: "Nazwa witryny",
