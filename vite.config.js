@@ -13,6 +13,7 @@ export default defineConfig({
         "Oficjalna strona Marka Niedźwieckiego - Muzyk, Kompozytor, Autor tekstów",
       image: "https://marek-niedzwiecki.netlify.app/images/19.webp",
       site_name: "Marek Niedźwiecki",
+      type: "website", // Dodatkowe pole type
       locale: "pl_PL",
     }),
   ],
