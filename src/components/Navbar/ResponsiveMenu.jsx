@@ -3,13 +3,20 @@ import { FaUserCircle } from "react-icons/fa";
 import { MenuLinks } from "./Navbar";
 import { Link } from "react-router-dom";
 
+const smoothScrollTo = (link) => {
+  document.querySelector(link).scrollIntoView({
+    behavior: "smooth",
+  });
+};
+
 const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
   const handleLinkClick = (link) => {
     // Po kliknięciu na link, chowaj menu boczne
     setShowMenu(false);
     const section = document.querySelector(link);
     if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
+      smoothScrollTo(link);
+      // section.scrollIntoView({ behavior: "smooth" });
     }
   };
   return (

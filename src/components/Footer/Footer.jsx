@@ -54,6 +54,12 @@ const ResourcesLinks = [
   },
 ];
 
+const smoothScrollTo = (link) => {
+  document.querySelector(link).scrollIntoView({
+    behavior: "smooth",
+  });
+};
+
 const Footer = () => {
   return (
     <>
@@ -108,11 +114,11 @@ const Footer = () => {
                     Linki
                   </h2>
                   <ul className={`flex flex-col gap-3`}>
-                    {FooterLinks.map(({ id, title, link }) => (
-                      <li key={id}>
+                    {FooterLinks.map(({ id, title, link }, index) => (
+                      <li key={index}>
                         <a
                           href={link}
-                          smooth={true}
+                          // smooth="false"
                           duration={500}
                           // onClick={() => smoothScrollTo(link)}
                           className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-400 "
@@ -130,9 +136,9 @@ const Footer = () => {
                     UKS Roszada
                   </h2>
                   <ul className="flex flex-col gap-3">
-                    {HelpLinks.map((link) => (
+                    {HelpLinks.map((link, index) => (
                       <li
-                        key={link.title}
+                        key={index}
                         className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-400 "
                       >
                         <Link
@@ -154,10 +160,10 @@ const Footer = () => {
                     Zasoby
                   </h2>
                   <ul className="flex flex-col gap-3">
-                    {ResourcesLinks.map(({ id, title, link }) => (
+                    {ResourcesLinks.map(({ id, title, link }, index) => (
                       <li
-                        key={id}
-                        smooth={true}
+                        key={index}
+                        // smooth="false"
                         duration={500}
                         // onClick={() => smoothScrollTo(link)}
                         className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-400 "

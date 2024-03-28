@@ -25,6 +25,16 @@ export const MenuLinks = [
   },
 ];
 
+const smoothScrollTo = (link) => {
+  // document.querySelector(link).scrollIntoView({
+  //   behavior: "smooth",
+  // });
+  const element = document.getElementById(link.substring(1)); // Usunięcie znaku '#' z początku linku
+  if (element) {
+    element.scrollIntoView({ behavior: "smooth" });
+  }
+};
+
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [isPopupVisible, setIsPopupVisible] = useState(false); // Stan do kontrolowania widoczności pop-upa
@@ -59,7 +69,7 @@ const Navbar = () => {
                     <li key={id} className="cursor-pointer py-4">
                       <a
                         href={link}
-                        smooth={true}
+                        // smooth={false}
                         duration={500}
                         onClick={() => smoothScrollTo(link)}
                         className="text-lg font-medium hover:text-primary py-2 hover:border-b-2 hover:border-primary transition-all duration-300"
