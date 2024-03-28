@@ -8,10 +8,11 @@ export default defineConfig({
     react(),
     ogPlugin({
       url: "https://marek-niedzwiecki.netlify.app",
-      title: "Marek Niedźwiecki",
-      description: "Opis strony",
+      title: "Marek Niedźwiecki - Strona główna",
+      description:
+        "Oficjalna strona Marka Niedźwieckiego - Muzyk, Kompozytor, Autor tekstów",
       image: "https://marek-niedzwiecki.netlify.app/images/19.webp",
-      site_name: "Nazwa witryny",
+      site_name: "Marek Niedźwiecki",
       locale: "pl_PL",
     }),
   ],
