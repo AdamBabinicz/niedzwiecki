@@ -51,14 +51,14 @@ const GalleryPopup = ({ images, onClose }) => {
         {/* Przyciski przewijania */}
         <button
           onClick={prevImage}
-          className="absolute top-1/2 left-4 transform -translate-y-1/2 dark:bg-white bg-white p-2 rounded-full cursor-pointer dark:hover:bg-gray-200 dark:transition-colors hover:bg-gray-200 transition-colors focus:outline-none"
+          className="absolute top-1/2 left-4 transform -translate-y-1/2 dark:bg-white bg-white p-2 rounded-full cursor-pointer dark:hover:bg-gray-200 dark:transition-colors hover:bg-gray-200 transition-colors focus:outline-none touch-none"
           style={{ zIndex: 11 }}
         >
           <FaChevronLeft className="text-xl" />
         </button>
         <button
           onClick={nextImage}
-          className="absolute top-1/2 right-4 transform -translate-y-1/2 dark:bg-white bg-white p-2 rounded-full cursor-pointer dark:hover:bg-gray-200 dark:transition-colors hover:bg-gray-200 transition-colors focus:outline-none"
+          className="absolute top-1/2 right-4 transform -translate-y-1/2 dark:bg-white bg-white p-2 rounded-full cursor-pointer dark:hover:bg-gray-200 dark:transition-colors hover:bg-gray-200 transition-colors focus:outline-none touch-none"
           style={{ zIndex: 11 }}
         >
           <FaChevronRight className="text-xl" />
