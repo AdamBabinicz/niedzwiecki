@@ -43,6 +43,15 @@ export default {
         },
       },
       scrollBehavior: ["scroll"],
+      maxHeight: {
+        500: "500px", // Dodanie definicji dla max-height: 500px
+        80: "80%",
+        700: "700px",
+      },
+      objectFit: {
+        contain: "contain",
+        cover: "cover",
+      },
     },
   },
   plugins: [

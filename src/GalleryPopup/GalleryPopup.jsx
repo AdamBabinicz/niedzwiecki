@@ -42,8 +42,8 @@ const GalleryPopup = ({ images, onClose }) => {
   }, [images]);
 
   return (
-    <div className="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50 z-50">
-      <div className="bg-white p-6 rounded-lg max-w-4xl relative">
+    <div className="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50 z-50 p-2">
+      <div className="bg-white rounded-lg max-w-4xl relative sm:w-8/12">
         <button
           className="absolute top-4 right-4 dark:bg-white bg-white p-2 rounded-full cursor-pointer dark:hover:bg-gray-200 dark:transition-colors hover:bg-gray-200 transition-colors focus:outline-none z-10"
           onClick={onClose}
@@ -55,7 +55,7 @@ const GalleryPopup = ({ images, onClose }) => {
             ref={imgRef}
             src={images[currentImageIndex]}
             alt={`Image ${currentImageIndex + 1}`}
-            className="w-full h-auto rounded-lg shadow-lg"
+            className="w-full h-auto rounded-lg shadow-lg p-1 object-contain max-h-700"
             loading="lazy" // Dodanie atrybutu loading="lazy"
           />
         </div>
