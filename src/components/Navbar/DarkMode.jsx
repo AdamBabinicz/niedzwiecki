@@ -20,7 +20,10 @@ const DarkMode = () => {
   return (
     <>
       {theme === "dark" ? (
-        <BiSolidSun onClick={() => setTheme("light")} className="text-2xl" />
+        <BiSolidSun
+          onClick={() => setTheme("light")}
+          className="text-2xl mr-4"
+        />
       ) : (
         <BiSolidMoon onClick={() => setTheme("dark")} className="text-2xl" />
       )}

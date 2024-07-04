@@ -72,11 +72,11 @@ const Footer = () => {
                 Znani Radomianie
               </h2>
               <p className="text-sm">
-                Marek Niedźwiecki jest sędzią szachowym o statusie klasy
-                centralnej oraz instruktorem szachowym. Zainicjował i
-                przeprowadził wiele prestiżowych turniejów szachowych. Pełni
-                funkcję koordynatora programu ogólnokrajowej nauki gry w szachy
-                oraz jest założycielem "Akademii Szachowej Marka
+                Marek Niedźwiecki jest sędzią szachowym o&nbsp;statusie klasy
+                centralnej oraz instruktorem szachowym. Zainicjował
+                i&nbsp;przeprowadził wiele prestiżowych turniejów szachowych.
+                Pełni funkcję koordynatora programu ogólnokrajowej nauki gry
+                w&nbsp;szachy oraz jest założycielem "Akademii Szachowej Marka
                 Niedźwieckiego". Jest autorem cenionych podręczników szachowych,
                 takich jak „Twój pierwszy ruch” oraz „Odkrywaj szachy”.
               </p>

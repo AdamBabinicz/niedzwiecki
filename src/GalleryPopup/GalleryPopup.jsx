@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { FaChevronLeft, FaChevronRight, FaTimes } from "react-icons/fa"; // Ikony
+import { FaChevronLeft, FaChevronRight, FaTimes } from "react-icons/fa";
 
 const GalleryPopup = ({ images, onClose }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -56,7 +56,7 @@ const GalleryPopup = ({ images, onClose }) => {
             src={images[currentImageIndex]}
             alt={`Image ${currentImageIndex + 1}`}
             className="w-full h-auto rounded-lg shadow-lg p-1 object-contain max-h-700"
-            loading="lazy" // Dodanie atrybutu loading="lazy"
+            loading="lazy"
           />
         </div>
         <button

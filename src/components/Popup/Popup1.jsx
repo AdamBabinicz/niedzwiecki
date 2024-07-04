@@ -12,7 +12,7 @@ const Popup = () => {
     <>
       {isVisible && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-          <div className="bg-white p-8 rounded-lg shadow-md max-w-md w-full">
+          <div className="bg-white p-8 mx-3 rounded-lg shadow-md max-w-md w-full">
             <h2 className="text-xl font-semibold mb-4">
               „Wprowadzić szachy do programu szkolnego”
             </h2>

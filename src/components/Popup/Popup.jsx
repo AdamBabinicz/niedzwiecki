@@ -16,7 +16,7 @@ const Popup = ({ onClose, content, popupImage, showImage }) => {
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: -50 }}
         transition={{ duration: 0.3 }}
-        className="bg-white p-8 rounded-lg shadow-lg max-w-md relative"
+        className="bg-white p-8 mx-3 rounded-lg shadow-lg max-w-md relative"
       >
         <button
           onClick={onClose}

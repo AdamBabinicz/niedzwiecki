@@ -6,7 +6,7 @@ import { PiShapesFill } from "react-icons/pi";
 const BrandLogo = () => {
   return (
     <>
-      <div className="dark:bg-gray-900 dark:text-white">
+      <div className="dark:bg-gray-900 dark:text-white mt-6">
         <div className="container py-12">
           <h2 data-aos="fade-up" className="text-center text-3xl font-semibold">
             Wartości życiowe:

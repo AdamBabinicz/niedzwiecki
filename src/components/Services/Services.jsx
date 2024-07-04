@@ -66,8 +66,8 @@ const Services = () => {
               data-aos-delay="300"
               className="text-gray-600 dark:text-gray-400 text-sm"
             >
-              Marek Niedźwiecki znany jest w Radomiu ze swojej działalności
-              społecznej, edukacyjnej i wychowawczej.
+              Marek Niedźwiecki znany jest w&nbsp;Radomiu ze swojej działalności
+              społecznej, edukacyjnej i&nbsp;wychowawczej.
             </p>
           </div>
           {/* card section */}
@@ -103,7 +103,7 @@ const Services = () => {
       {isPopupVisible && (
         <Popup
           onClose={() => setIsPopupVisible(false)}
-          content="W sieci dominują szachy płaskie, jednak ja preferuję rozgrywkę w szachy przestrzenne. Pomimo tego, że moja pasja skupia się głównie na grze w szachy przestrzenne, nie zaniedbuję również rozgrywki na tradycyjnych szachownicach. Jako entuzjasta szachów, nie tylko uczestniczę w rozgrywkach, ale również aktywnie angażuję się w rozwiązywanie różnorodnych zadań szachowych. To ważna wskazówka dla tych, którzy dopiero rozpoczynają swoją przygodę z szachami – nie należy ograniczać się wyłącznie do rozgrywania partii, lecz także poświęcić czas na rozwiązywanie zadań szachowych, co znacząco poszerza wiedzę i umiejętności. Istnieje mnóstwo zadań szachowych do wypróbowania, a nawet istnieją rankingi oceniające umiejętności w ich rozwiązywaniu."
+          content="W sieci dominują szachy płaskie, jednak ja preferuję rozgrywkę w&nbsp;szachy przestrzenne. Pomimo tego, że moja pasja skupia się głównie na grze w&nbsp;szachy przestrzenne, nie zaniedbuję również rozgrywki na tradycyjnych szachownicach. Jako entuzjasta szachów, nie tylko uczestniczę w&nbsp;rozgrywkach, ale również aktywnie angażuję się w&nbsp;rozwiązywanie różnorodnych zadań szachowych. To ważna wskazówka dla tych, którzy dopiero rozpoczynają swoją przygodę z&nbsp;szachami – nie należy ograniczać się wyłącznie do rozgrywania partii, lecz także poświęcić czas na rozwiązywanie zadań szachowych, co znacząco poszerza wiedzę i&nbsp;umiejętności. Istnieje mnóstwo zadań szachowych do wypróbowania, a&nbsp;nawet istnieją rankingi oceniające umiejętności w&nbsp;ich rozwiązywaniu."
         />
       )}
       {/* Renderuj komponent Popup tylko gdy isPopupVisible jest ustawione na true */}

@@ -110,7 +110,7 @@ const Navbar = () => {
           onClose={() => setIsPopupVisible(false)}
           showImage={isPopupVisible}
           popupImage={image}
-          content="Uczniowski Klub Sportowy 'ROSZADA' - wstąp i zapisz się! Radom, ul. Mazowieckiego 13, ☎ +48 502 147 317"
+          content="Uczniowski Klub Sportowy 'ROSZADA' - wstąp i&nbsp;zapisz się! Radom, ul. Mazowieckiego 13, ☎ +48 502 147 317"
         />
       )}
       {/* Renderuj komponent Popup tylko gdy isPopupVisible jest ustawione na true */}
