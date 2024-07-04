@@ -56,6 +56,7 @@ const GalleryPopup = ({ images, onClose }) => {
             src={images[currentImageIndex]}
             alt={`Image ${currentImageIndex + 1}`}
             className="w-full h-auto rounded-lg shadow-lg"
+            loading="lazy" // Dodanie atrybutu loading="lazy"
           />
         </div>
         <button
