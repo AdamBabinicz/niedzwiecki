@@ -64,7 +64,7 @@ const Testimonials = () => {
                         </p>
                         <h1 className="text-xl font-bold">{name}</h1>
                       </div>
-                      <p className="text-black/10 text-[12rem] font-serif absolute bottom-0 right-0 dark:text-white">
+                      <p className="text-black/10 text-[9rem] font-serif absolute bottom-0 right-0 dark:text-white">
                         ,,
                       </p>
                     </div>
