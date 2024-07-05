@@ -25,7 +25,7 @@ const DarkMode = () => {
           className="text-2xl mr-4"
         />
       ) : (
-        <BiSolidMoon onClick={() => setTheme("dark")} className="text-2xl" />
+        <BiSolidMoon onClick={() => setTheme("dark")} className="text-2xl mr-4"/>
       )}
     </>
   );
