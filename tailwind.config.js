@@ -32,6 +32,9 @@ export default {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
+      fontSize: {
+        "4.5xl": "4.5rem",
+      },
       colors: {
         primary: "#6153CD",
       },
