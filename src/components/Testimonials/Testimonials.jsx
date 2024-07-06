@@ -50,7 +50,7 @@ const Testimonials = () => {
             <Slider {...settings}>
               {testimonialData.map(({ id, name, text, img }, index) => {
                 return (
-                  <div key={index} className="my-6">
+                  <div key={index} className="mt-6">
                     {/* card */}
                     <div className="flex flex-col sm:flex-row gap-5 md:gap-14 p-4 mx-4 rounded-xl dark:bg-gray-800 relative">
                       <img
