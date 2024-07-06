@@ -62,9 +62,15 @@ const Testimonials = () => {
                         <p className="text-gray-500 text-black/80 dark:text-white/80 xl:pr-40">
                           “{text}”
                         </p>
-                        <h1 className="text-xl font-bold">{name}</h1>
+                        <a
+                          href="https://twojradom.pl/marek-niedzwiecki-szachy-nigdy-nie-znikna-z-przestrzeni-spolecznej/1416411"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <h2 className="text-xl font-bold mt-2">{name}</h2>
+                        </a>
                       </div>
-                      <p className="text-black/10 text-[4.5rem] sm:text-[9rem] font-serif absolute bottom-4 right-0 dark:text-white">
+                      <p className="text-black/10 text-[4.5rem] sm:text-[9rem] font-serif absolute bottom-4 right-2 dark:text-white">
                         ,,
                       </p>
                     </div>

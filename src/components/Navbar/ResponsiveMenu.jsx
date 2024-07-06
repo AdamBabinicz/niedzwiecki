@@ -16,9 +16,9 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
     const section = document.querySelector(link);
     if (section) {
       smoothScrollTo(link);
-      // section.scrollIntoView({ behavior: "smooth" });
     }
   };
+
   return (
     <div
       className={`${
@@ -43,7 +43,7 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
                   <Link
                     to={link}
                     className="mb-5 inline-block"
-                    onClick={handleLinkClick}
+                    onClick={() => handleLinkClick(link)} // Przekazanie linku jako argument do handleLinkClick
                   >
                     {name}
                   </Link>
